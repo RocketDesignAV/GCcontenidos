@@ -30,6 +30,8 @@
     width: 300px;
     border-bottom: 3px solid white;
     color: transparent;
+    text-indent: -9999px;
+    user-select: none;
     padding-top: 0.5em;
     margin-left: 130px;
  }

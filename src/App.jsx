@@ -17,20 +17,17 @@ function App() {
 
   return (
     <BrowserRouter>
-     
-        <Menu/>
-      
+      <Menu/>
       <main className='contenedorMain'>
         <Nosotros/>
         <Servicios/>
         <Portfolio/>
         <Clientes/>
         <Contacto/>
-        
       </main>
       <div className='fixed btnWhatsapp'>
-      <a href="https://api.whatsapp.com/send?phone=1132309706" target='_blank'>mi whatsapp</a>
-    </div>
+        <a href="https://api.whatsapp.com/send?phone=1132309706" target='_blank'>mi whatsapp</a>
+      </div>
     </BrowserRouter>
   )
 }
