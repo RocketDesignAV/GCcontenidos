@@ -1,0 +1,76 @@
+.clientesContenedor {
+    padding: 2em 0;
+    padding: 0 8px;
+    margin-top: 8em;
+    color: white;
+    background: rgb(1,0,0);
+    background: linear-gradient(180deg, rgba(1,0,0,0) 0%, rgba(11,0,0,1) 16%);
+}
+.containerClientes {
+    max-width: 1126px;
+    margin: auto;
+}
+.clientesContenedor h1 {
+    font-size: 35px;
+    text-align: left;
+    padding-top: 2em;
+   
+}
+
+
+.clientesContenedor .hr {
+    height: 3px;
+    display: flex;
+    justify-content: flex-start;
+    
+   
+ }
+ 
+ .clientesContenedor .hr p{
+    width: 300px;
+    border-bottom: 3px solid white;
+    color: transparent;
+    padding-top: 0.5em;
+    margin-left: 130px;
+ }
+ 
+ .clientesContent {
+    flex-direction: column;
+    gap: 5em;
+    margin: 5em 0 0 0;
+ }
+
+
+
+
+ 
+@media screen and (max-width:1024px) {
+
+    .clientesContenedor h1 {
+        text-align: center;
+        padding: 3em 0 1em 0;
+        margin: 0;
+        font-size: 28px;
+    }
+
+    
+    .clientesContenedor .hr, .clientesContenedor .hr p {
+        display: none;
+     }
+
+     .clientesContent {
+        gap: 1em;
+     }
+
+     .clientesContentRow-1, .clientesContentRow-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .clientesContentRow-1 {
+        gap: 2em;
+     }
+     .clientesContentRow-2 {
+        gap: 3em;
+     }
+}
