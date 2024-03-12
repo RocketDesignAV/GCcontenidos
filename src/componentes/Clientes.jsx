@@ -5,7 +5,7 @@ const Clientes = () => {
   return (
     <div id="clientesId" className="clientesContenedor">
       <div className='containerClientes'>
-      <h1>CONFÍAN EN NOSOTROS</h1>
+      <h1 className='text-center'>CONFÍAN EN NOSOTROS</h1>
       <div className='hr'>
           <p>d</p>
       </div>

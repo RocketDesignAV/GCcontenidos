@@ -9,21 +9,14 @@ const Nosotros = () => {
         <p>d</p>
       </div>
       <div className='flex justify-center items-center nosotrosContent'>
+          <div className='nosotrosImgDiv flex justify-between'>
+              <picture>
+                <img src="../../public/img/fondo-header.png" alt="" width={'800px'}/>
+              </picture>
+            </div>
           <div className='nosotrosTextDiv'>
             <p>Nos dedicamos a la produccion de eventos y contenidos audiovisuales. Somos una empresa con amplia trayectoria y en constante crecimiento. Nos esmeramos en brindar un producto de calidad, y un servicio de primera.</p>
           </div>
-          <div className='nosotrosImgDiv flex justify-between'>
-            <div>
-              <picture>
-                <img src="../../public/img/fondo-header.png" alt="" width={'550px'} height={'230px'}/>
-              </picture>
-            </div>
-            <div>
-              <picture>
-                <img src="../../public/img/fondo-header.png" alt="" width={'550px'} height={'230px'}/>
-              </picture>
-            </div>
-            </div>
         </div>
       </div>
   )

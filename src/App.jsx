@@ -10,6 +10,7 @@ import Contacto from './componentes/Contacto'
 import Nosotros from './componentes/Nosotros'
 import Servicios from './componentes/Servicios'
 import Portfolio from './componentes/Portfolio'
+import Carousel from './componentes/Carousel'
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
       <main className='contenedorMain'>
         <Nosotros/>
         <Servicios/>
-        <Portfolio/>
-        <Clientes/>
+        <Portfolio/> 
+       {/* <Clientes/>*/}
+        <Carousel/>
         <Contacto/>
       </main>
       <div className='fixed btnWhatsapp'>
