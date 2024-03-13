@@ -5,7 +5,7 @@ import {BrowserRouter} from 'react-router-dom'
 
 import './App.css'
 import Menu from './componentes/Menu'
-import Clientes from './componentes/Clientes'
+//import Clientes from './componentes/Clientes'
 import Contacto from './componentes/Contacto'
 import Nosotros from './componentes/Nosotros'
 import Servicios from './componentes/Servicios'
