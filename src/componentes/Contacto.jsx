@@ -6,7 +6,7 @@ const Contacto = () => {
   return (
     <div className="contactoContenedor">
       <div className='olaFooter'>
-        <img src="../../public/img/ola-footer.png" alt="" />
+        <img src="/img/ola-footer.png" alt="" />
       </div>
         <div id="contactoId" className='contactoContent'>
 
@@ -19,7 +19,7 @@ const Contacto = () => {
                 <ul className="mt-3">
                     <li className="flex items-center">
                         <div className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <img src="../../public/img/cel.png" alt="" width={'25px'}/>
+                        <img src="/img/cel.png" alt="" width={'25px'}/>
                         </div>
                         <div className="text-white text-sm ml-3">
                             <small className="block">Teléfono</small><strong>11 3230-9706</strong>
@@ -32,7 +32,7 @@ const Contacto = () => {
                 <ul className="mt-3">
                     <li className="flex items-center">
                         <div className="h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                        <img src="../../public/img/mail.png" alt="" width={'25px'}/>
+                        <img src="/img/mail.png" alt="" width={'25px'}/>
                         </div>
                         <a target="blank" href="gc-contenidos@hotmail.com" className="text-white text-sm ml-3">
                             <small className="block">Email</small><strong>gc-contenidos@hotmail.com</strong>
@@ -67,7 +67,7 @@ const Contacto = () => {
         </div>
         <div className='footerEnd'>
             <div className='rocketImg'>
-                <img src="../../public/img/rocket.png" alt="" width={'187px'}/>
+                <img src="/img/rocket.png" alt="" width={'187px'}/>
 
             </div>
             <div className='copy'>

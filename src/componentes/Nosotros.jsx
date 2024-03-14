@@ -11,7 +11,7 @@ const Nosotros = () => {
       <div className='flex justify-center items-center nosotrosContent'>
           <div className='nosotrosImgDiv flex justify-between'>
               <picture>
-                <img src="../../public/img/fondo-header.png" alt="" width={'800px'}/>
+                <img src="/img/quienes-somos.jpeg" alt="" width={'800px'}/>
               </picture>
             </div>
           <div className='nosotrosTextDiv'>

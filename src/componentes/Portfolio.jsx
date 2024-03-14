@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import '../../public/css/portfolio.css';
 
 const Portfolio = () => {
@@ -45,48 +45,48 @@ const Portfolio = () => {
         <div className="-m-1 flex flex-wrap md:-m-2 justify-center">
           {/* Aquí se agregan las imágenes */}
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/taylor.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/taylor.jpg' alt='Taylor Swift'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/taylor.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/taylor.jpg' alt='Taylor Swift'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/salud-mental.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/salud-mental.jpg' alt='Salud Mental'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/salud-mental.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/salud-mental.jpg' alt='Salud Mental'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/riverport2.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/riverport2.jpg' alt='Riverport 2'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/onu-portfolio.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/onu-portfolio.jpg' alt='Riverport 2'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/coldplay.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/coldplay.jpg' alt='Coldplay'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/coldplay.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/coldplay.jpg' alt='Coldplay'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/riverport3.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/riverport3.jpg' alt='Riverport 3'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/riverport3.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/riverport3.jpg' alt='Riverport 3'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/cai-2.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/cai-2.jpg' alt='CAI 2'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/cai-2.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/cai-2.jpg' alt='CAI 2'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/riverport4.webp')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/riverport4.webp' alt='Riverport 4'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/riverport4.webp')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/riverport4.webp' alt='Riverport 4'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/huracan-conferencia.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/huracan-conferencia.jpg' alt='Huracán Conferencia'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/huracan-conferencia.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/huracan-conferencia.jpg' alt='Huracán Conferencia'/>
             </a>
           </div>
           <div className="w-full md:w-1/3 p-1 md:p-2">
-            <a href="#" onClick={(e) => handleImageClick(e, '../../public/img/cai-campeones.jpg')}>
-              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='../../public/img/cai-campeones.jpg' alt='CAI Campeones'/>
+            <a href="#" onClick={(e) => handleImageClick(e, '/img/cai-campeones.jpg')}>
+              <img className="block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition-transform duration-300" src='/img/cai-campeones.jpg' alt='CAI Campeones'/>
             </a>
           </div>
         </div>

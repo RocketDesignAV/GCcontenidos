@@ -13,29 +13,29 @@ const Clientes = () => {
           <div className='clientesContentRow-1 flex justify-between'>
             <div className='river'>
               <picture>
-                <img src="../../public/img/RIVER.png" alt="" width={'195px'}/>
+                <img src="/img/RIVER.png" alt="" width={'195px'}/>
               </picture>
             </div>
             <div className='huracan'>
               <picture>
-                <img src="../../public/img/HURACAN.png" alt="" width={'147px'} />
+                <img src="/img/HURACAN.png" alt="" width={'147px'} />
               </picture>
             </div>
             <div className='cai'>
               <picture>
-                <img src="../../public/img/CAI.png" alt="" width={'226px'} />
+                <img src="/img/CAI.png" alt="" width={'226px'} />
               </picture>
             </div>
           </div>
           <div className='clientesContentRow-2 flex justify-around'>
               <div className='minSalud'>
                 <picture>
-                  <img src="../../public/img/min-salud.png" alt="" width={'400px'} />
+                  <img src="/img/min-salud.png" alt="" width={'400px'} />
                 </picture>
               </div>
               <div className='galicia'>
                 <picture>
-                  <img src="../../public/img/galicia.png" alt="" width={'400px'} />
+                  <img src="/img/galicia.png" alt="" width={'400px'} />
                 </picture>
               </div>
           </div>

@@ -9,7 +9,7 @@ const Servicios = () => {
         <div className='serviciosImgDiv'>
           <div className='cctv'>
             <picture>
-              <img src="../../public/img/CCTV.png" alt="" />
+              <img src="/img/CCTV.png" alt="" />
             </picture>
             <p className='text-white'>CCTV</p>
             <div className='cctvP'>
@@ -23,7 +23,7 @@ const Servicios = () => {
           </div>
           <div className='sonido'>
             <picture>
-              <img src="../../public/img/sonido.png" alt="" />
+              <img src="/img/sonido.png" alt="" />
             </picture>
             <p className='text-white'>SONIDO</p>
             <div className='sonidoP'>
@@ -37,7 +37,7 @@ const Servicios = () => {
           </div>
           <div className='video'>
             <picture>
-              <img src="../../public/img/video.png" alt="" />
+              <img src="/img/video.png" alt="" />
             </picture>
             <p className='text-white'>VIDEO</p>
             <div className='videoP'>
@@ -51,7 +51,7 @@ const Servicios = () => {
           </div>
           <div className='contenido'>
             <picture>
-              <img src="../../public/img/contenido.png" alt="" />
+              <img src="/img/contenido.png" alt="" />
             </picture>
             <p className='text-white'>CONTENIDO</p>
             <div className='contenidoP'>

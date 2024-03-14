@@ -9,7 +9,7 @@
 .serviciosContenedor h1 {
     font-size: 35px;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 4em;
     padding-bottom: 2em;
     color: white;
 }
@@ -99,6 +99,13 @@ li {
     color: white;
 }
 
+.contenidoP ul{
+    width: 80%;
+}
+
+.firstLi{
+    text-transform: uppercase;
+}
 
 @media screen and (max-width:1024px) {
 

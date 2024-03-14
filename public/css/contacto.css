@@ -45,9 +45,11 @@
 }
 
 .rocketImg {
-    max-width: 1100px;
+    max-width: 826px;
+    margin: auto;
     display: flex;
     justify-content: flex-end;
+    padding: 1em 0;
 }
 
 .btnForm {

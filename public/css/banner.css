@@ -1,0 +1,11 @@
+.banner button {
+  display: none;
+}
+
+.banner{
+  height: 100vh;
+}
+
+.banner img {
+  width: 100%;
+}
