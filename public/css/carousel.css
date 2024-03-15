@@ -1,0 +1,49 @@
+.clientesContenedor {
+    width: 100%;
+    overflow: hidden;
+  } 
+
+  .carousel-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    object-fit: cover; 
+    width: 150px;
+  }
+  
+  .slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+  }
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .carousel-item {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .imgOnu img{
+    width: auto;
+  }
+
+  .imgFootgolf img{
+    width: auto;
+  }
+
+  .imgDf img{
+    width: auto;
+  }
