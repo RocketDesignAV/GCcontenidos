@@ -35,7 +35,11 @@ const Contacto = () => {
                         <img src="/img/mail.png" alt="" width={'25px'}/>
                         </div>
                         <a target="blank" href="gc-contenidos@hotmail.com" className="text-white text-sm ml-3">
+<<<<<<< HEAD
                             <small className="block">Email</small><strong>gccontenidosinfo@gmail.com</strong>
+=======
+                            <small className="block">Email</small><strong>gc-contenidos@hotmail.com</strong>
+>>>>>>> 0382bc54c948040ba7432bf18b6cf54c1f57b31b
                         </a>
                     </li>
                 </ul>
@@ -67,7 +71,11 @@ const Contacto = () => {
         </div>
         <div className='footerEnd'>
             <div className='rocketImg'>
+<<<<<<< HEAD
                 <img src="/img/rocket.png" alt="" width={'150px'}/>
+=======
+                <img src="/img/rocket.png" alt="" width={'187px'}/>
+>>>>>>> 0382bc54c948040ba7432bf18b6cf54c1f57b31b
 
             </div>
             <div className='copy'>

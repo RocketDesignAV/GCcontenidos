@@ -36,6 +36,7 @@ const Carousel = () => {
           <div className="carousel-wrapper">
         <Slider {...settings} className='flex items-center justify-center'>
           <div className='carousel-item imgRiver'>
+<<<<<<< HEAD
             <img src="/img/river-logo.png" alt="Imagen 1" style={{width:'120px'}}/>
           </div>
           <div className='carousel-item imgOnu'>
@@ -61,6 +62,30 @@ const Carousel = () => {
           </div>
           <div className='carousel-item imgTeamup'>
             <img src="/img/teamup.png" alt="Imagen 9" style={{width:'120px'}}/>
+=======
+            <img src="/img/river.png" alt="Imagen 1" style={{width:'120px'}}/>
+          </div>
+          <div className='carousel-item imgOnu'>
+            <img src="/img/onu-white.png" alt="Imagen 3"/>
+          </div>
+          <div className='carousel-item imgHuracan'>
+            <img src="/img/huracan.png" alt="Imagen 2" style={{width:'100px'}}/>
+          </div>
+          <div className='carousel-item imgFootgolf'>
+            <img src="/img/footgolf-white.png" alt="Imagen 3"/>
+          </div>
+          <div className='carousel-item imgAfa'>
+            <img src="/img/afa.png" alt="Imagen 3" style={{width:'120px'}}/>
+          </div>
+          <div className='carousel-item imgDf'>
+            <img src="/img/df-white.png" alt="Imagen 3"/>
+          </div>
+          <div className='carousel-item imgCai'>
+            <img src="/img/cai.png" alt="Imagen 3" style={{width:'120px'}}/>
+          </div>
+          <div className='carousel-item imgTeamup'>
+            <img src="/img/teamup.png" alt="Imagen 3" style={{width:'120px'}}/>
+>>>>>>> 0382bc54c948040ba7432bf18b6cf54c1f57b31b
           </div>
         </Slider>
       </div>
