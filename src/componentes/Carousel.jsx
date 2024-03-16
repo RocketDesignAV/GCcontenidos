@@ -36,7 +36,6 @@ const Carousel = () => {
           <div className="carousel-wrapper">
         <Slider {...settings} className='flex items-center justify-center'>
           <div className='carousel-item imgRiver'>
-<<<<<<< HEAD
             <img src="/img/river-logo.png" alt="Imagen 1" style={{width:'120px'}}/>
           </div>
           <div className='carousel-item imgOnu'>
@@ -60,32 +59,20 @@ const Carousel = () => {
           <div className='carousel-item imgGalicia'>
             <img src="/img/galicia-edit.png" alt="Imagen 6" style={{width:'250px'}}/>
           </div>
+          <div className='carousel-item imgLanus'>
+            <img src="/img/lanus.png" alt="Imagen 9" style={{width:'250px'}}/>
+          </div>
+          <div className='carousel-item imgMinSalud'>
+            <img src="/img/min-salud.png" alt="Imagen 9" style={{width:'400px'}}/>
+          </div>
+          <div className='carousel-item imgWFG'>
+            <img src="/img/WFG.png" alt="Imagen 9" style={{width:'120px'}}/>
+          </div>
+          <div className='carousel-item imgRENAPER'>  
+            <img src="/img/RENAPER.png" alt="Imagen 9" style={{width:'250px'}}/>
+          </div>
           <div className='carousel-item imgTeamup'>
             <img src="/img/teamup.png" alt="Imagen 9" style={{width:'120px'}}/>
-=======
-            <img src="/img/river.png" alt="Imagen 1" style={{width:'120px'}}/>
-          </div>
-          <div className='carousel-item imgOnu'>
-            <img src="/img/onu-white.png" alt="Imagen 3"/>
-          </div>
-          <div className='carousel-item imgHuracan'>
-            <img src="/img/huracan.png" alt="Imagen 2" style={{width:'100px'}}/>
-          </div>
-          <div className='carousel-item imgFootgolf'>
-            <img src="/img/footgolf-white.png" alt="Imagen 3"/>
-          </div>
-          <div className='carousel-item imgAfa'>
-            <img src="/img/afa.png" alt="Imagen 3" style={{width:'120px'}}/>
-          </div>
-          <div className='carousel-item imgDf'>
-            <img src="/img/df-white.png" alt="Imagen 3"/>
-          </div>
-          <div className='carousel-item imgCai'>
-            <img src="/img/cai.png" alt="Imagen 3" style={{width:'120px'}}/>
-          </div>
-          <div className='carousel-item imgTeamup'>
-            <img src="/img/teamup.png" alt="Imagen 3" style={{width:'120px'}}/>
->>>>>>> 0382bc54c948040ba7432bf18b6cf54c1f57b31b
           </div>
         </Slider>
       </div>

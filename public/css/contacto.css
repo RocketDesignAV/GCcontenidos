@@ -30,7 +30,7 @@
 }
 
 .contenedorRedesForm {
-    align-items: flex-end;
+    align-items: center;
 }
 
 
@@ -55,4 +55,9 @@
 .btnForm {
     background: rgb(220,60,9);
     background: linear-gradient(0deg, rgba(220,60,9,0.8632703081232493) 15%, rgba(168,23,23,0.5131302521008403) 100%);
+}
+
+
+.text-agradecimiento {
+    font: 18px;
 }

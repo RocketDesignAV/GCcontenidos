@@ -147,6 +147,48 @@ li {
     }  
     .serviciosContenedor h1 {
         padding-top: 4em;  
-    }  
+    } 
+    .serviciosTexto {
+        font-size: 25px;
+    }
 }
 
+
+@media screen and (max-width:1024px) {
+    .cctv:hover p, .sonido:hover p, .video:hover p, .contenido:hover p {
+        top: 80px;
+    }
+
+    .cctvP ul li,
+    .sonidoP ul li,
+    .videoP ul li,
+    .contenidoP ul li {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 769px){
+    .cctv:hover p, .sonido:hover p, .video:hover p, .contenido:hover p {
+        top: 140px;
+    }
+    
+}
+@media screen and (max-width: 510px){
+    .cctv:hover p, .sonido:hover p, .video:hover p, .contenido:hover p {
+        top: 100px;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .cctv:hover p, .sonido:hover p, .video:hover p, .contenido:hover p {
+        top: 100px;
+    
+    }
+    .serviciosTexto {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 450px){
+    .cctv:hover p, .sonido:hover p, .video:hover p, .contenido:hover p {
+        top: 80px;
+    }
+}

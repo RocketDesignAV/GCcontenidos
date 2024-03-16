@@ -74,11 +74,45 @@ nav ul li a {
     width: 142px;
 }
 
-
 nav ul {
     margin: 0;
 }
 
 .claseBgHamburger {
     background: #000; 
+}
+
+.ulMenuMain li a:hover {
+    color: rgb(153, 2, 2);
+}
+
+@media screen and (max-width:1024px){
+    .navDivi {
+        flex-direction: row-reverse;
+        padding: 0;
+        background: black;
+    }
+    .divImg img {
+        width: 130px;
+    }
+    .ulMenuMain {
+        background: black;
+        width: 100%;
+      }
+    .ulMenuMain li a {
+        padding: 2em 0;
+    }
+    
+
+}
+@media screen and (max-width:600px){
+    .divImg img {
+        width: 100px;
+    }
+}
+
+
+.divImg img {
+    margin-right: 20px;
   }
+  
