@@ -6,9 +6,10 @@ function Banner() {
     <div className="banner">
       <Carousel>
         <img src="/img/MESSI.png" alt="..." />
+        <img src="/img/river-header.webp" alt="..." />
+        <img src="/img/cai-header.jpg" alt="..." />
         <img src="/img/coldplay-river.png" alt="..." />
-        <img src="/img/riverport4.webp" alt="..." />
-        <img src="/img/taylor.jpg" alt="..." />
+        <img src="/img/taylor-header.jpg" alt="..." />
       </Carousel>
     </div>
   );
